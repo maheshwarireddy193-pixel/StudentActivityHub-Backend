@@ -14,6 +14,7 @@ public class WebConfig implements WebMvcConfigurer {
                 .allowedOriginPatterns(
                         "http://localhost:*",
                         "http://127.0.0.1:*",
+                        "https://student-activity-hub-frontend.vercel.app",
                         "null"
                 )
                 .allowedMethods(
